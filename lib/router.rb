@@ -3,7 +3,7 @@ class Router
 
     def initialize(routes)
         @routes = routes 
-    end
+    end 
 
     def resolve(env)
         # アクセスしたURlのパス取得
@@ -19,7 +19,6 @@ class Router
             puts error.message
             puts error.backtrace
             Controller.new.internal_error
-        end
     end
 
     private
