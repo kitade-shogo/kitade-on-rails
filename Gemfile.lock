@@ -6,6 +6,7 @@ GEM
     erb (4.0.2)
       cgi (>= 0.3.3)
     method_source (1.0.0)
+    mini_portile2 (2.8.4)
     nio4r (2.5.9)
     pry (0.14.2)
       coderay (~> 1.1)
@@ -16,6 +17,10 @@ GEM
     rackup (2.1.0)
       rack (>= 3)
       webrick (~> 1.8)
+    sequel (5.71.0)
+    sqlite3 (1.6.3)
+      mini_portile2 (~> 2.8.0)
+    sqlite3 (1.6.3-arm64-darwin)
     webrick (1.8.1)
 
 PLATFORMS
@@ -28,6 +33,8 @@ DEPENDENCIES
   puma
   rack
   rackup
+  sequel
+  sqlite3
 
 BUNDLED WITH
    2.3.17

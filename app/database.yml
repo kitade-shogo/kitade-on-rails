@@ -1,0 +1,2 @@
+adapter: sqlite
+database: './app/db/development.sqlite3'
